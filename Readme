@@ -1,0 +1,310 @@
+# ⚡ Global EV Charging Infrastructure Analytics
+
+## 📊 Power BI Interactive Dashboard
+
+An interactive **Power BI dashboard** designed to analyze and visualize the global **Electric Vehicle (EV) charging infrastructure**.
+
+This project provides insights into **charging stations, operators, station status, country-wise distribution, and infrastructure growth over time** using an interactive and user-friendly dashboard.
+
+---
+
+## 🚀 Project Overview
+
+The rapid growth of Electric Vehicles has increased the demand for reliable and accessible charging infrastructure.
+
+This project analyzes EV charging station data to understand:
+
+- 🌍 Country-wise distribution of charging stations
+- 🏢 Major EV charging operators
+- 🔌 Total charging connectors
+- ✅ Operational station status
+- 📈 Growth of charging infrastructure over time
+- 🎛️ Interactive filtering and exploration
+
+The dashboard transforms raw EV charging station data into meaningful and easy-to-understand business insights.
+
+---
+
+## 🎯 Objectives
+
+- 📌 Analyze the distribution of EV charging stations across countries
+- 📌 Identify the top EV charging operators
+- 📌 Analyze charging station operational status
+- 📌 Track charging infrastructure growth over time
+- 📌 Provide interactive filtering for better data exploration
+- 📌 Build a clean and professional Power BI dashboard
+
+---
+
+## 📂 Dataset
+
+The dataset contains information about EV charging stations.
+
+### 📋 Key Columns
+
+- 🆔 Station ID
+- 📍 Station Title
+- 🏠 Address
+- 🏙️ Town
+- 🗺️ State
+- 📮 Postcode
+- 🌍 Country
+- 📌 Latitude
+- 📌 Longitude
+- 🏢 Operator
+- ✅ Status
+- 🔌 Number of Connectors
+- ⚡ Connector Types
+- 📅 Date Added
+
+📊 **Records:** 10,000+ EV charging station records
+
+📁 **Source:** Kaggle EV Charging Station Dataset
+
+---
+
+## 🛠️ Tools & Technologies
+
+### 📊 Data Visualization
+- Microsoft Power BI
+
+### 🧹 Data Preparation
+- Power Query
+- Data Cleaning
+- Data Transformation
+
+### 🧮 Analytics
+- DAX
+- KPI Analysis
+- Aggregation
+- Trend Analysis
+- Descriptive Analytics
+
+### 📈 Visualization Techniques
+- KPI Cards
+- Bar Charts
+- Donut Charts
+- Line Charts
+- Interactive Slicers
+
+---
+
+## 📊 Dashboard Features
+
+### 🔢 KPI Cards
+
+The dashboard includes key performance indicators such as:
+
+- 🔌 Total Charging Stations
+- ⚡ Total Connectors
+- 🌍 Total Countries
+- ✅ Active / Operational Stations
+
+---
+
+### 📊 Top 10 Countries
+
+A ranking visualization showing the countries with the highest number of EV charging stations.
+
+**Used for:**
+- Country comparison
+- Infrastructure distribution
+- Identifying leading EV markets
+
+---
+
+### 🏢 Top 10 Charging Operators
+
+A comparison of the leading EV charging station operators.
+
+**Used for:**
+- Operator comparison
+- Market presence analysis
+- Identifying major infrastructure providers
+
+---
+
+### 🍩 Charging Station Status
+
+A donut chart showing the distribution of charging stations based on their operational status.
+
+**Used for:**
+- Operational infrastructure analysis
+- Active vs inactive station comparison
+
+---
+
+### 📈 Charging Station Growth
+
+A line chart showing how EV charging stations have been added over time.
+
+**Used for:**
+- Growth analysis
+- Infrastructure expansion trends
+- Understanding development over time
+
+---
+
+## 🎛️ Interactive Filters
+
+The dashboard includes interactive slicers:
+
+- 🌍 Country
+- ✅ Status
+- 📅 Year
+
+Users can select different values and dynamically explore the dashboard.
+
+---
+
+## 💡 Key Business Questions
+
+This dashboard helps answer questions such as:
+
+🔹 Which countries have the highest number of EV charging stations?
+
+🔹 Which charging operators have the largest presence?
+
+🔹 How many charging stations are currently operational?
+
+🔹 How many charging connectors are available?
+
+🔹 How has EV charging infrastructure grown over time?
+
+🔹 How does the charging infrastructure change when filtering by country or year?
+
+---
+
+## 🧹 Data Preparation
+
+The dataset was prepared using **Power Query**.
+
+### Data Cleaning Steps
+
+- Removed duplicate station records
+- Checked and corrected data types
+- Validated numerical fields
+- Prepared date fields for trend analysis
+- Standardized categorical fields
+- Prepared data for Power BI visualization
+
+---
+
+## 🧮 DAX & Calculations
+
+DAX measures were created to calculate important KPIs such as:
+
+- Total Charging Stations
+- Total Connectors
+- Total Countries
+- Active Stations
+- Operator Counts
+- Station Growth
+
+These measures enable dynamic calculations when users interact with dashboard filters.
+
+---
+
+## 🎨 Dashboard Design
+
+The dashboard was designed with a clean and simple layout:
+
+```text
+⚡ GLOBAL EV CHARGING INFRASTRUCTURE ANALYTICS
+
+🎛️ Country | Status | Year
+
+🔢 KPI CARDS
+Stations | Connectors | Countries | Active Stations
+
+📊 Top 10 Countries | 🏢 Top 10 Operators
+
+🍩 Station Status | 📈 Station Growth
+The design focuses on:
+
+✨ Clean layout
+🎯 Easy navigation
+📊 Clear visual hierarchy
+🎛️ Interactive filtering
+💼 Business-oriented insights
+📁 Project Structure
+Global-EV-Charging-Infrastructure-Analytics/
+│
+├── 📊 EV_Charging_Infrastructure.pbix
+├── 📸 Dashboard_Screenshot.png
+├── 📄 README.md
+└── 📁 Dataset/
+    └── ev_stations_2025.csv
+
+⚠️ If the dataset license does not allow redistribution, do not upload the raw CSV. Instead, provide the original Kaggle source in this README.
+
+▶️ How to Use
+Download or clone this repository
+Open the .pbix file using Microsoft Power BI Desktop
+Refresh the dataset if required
+Use the slicers to filter the dashboard
+Explore the different visualizations
+Hover over visuals to view additional information
+📚 Skills Demonstrated
+
+This project demonstrates practical experience in:
+
+📊 Power BI
+🧹 Power Query
+🧮 DAX
+📈 Data Visualization
+📊 Dashboard Development
+🧹 Data Cleaning
+🔄 Data Transformation
+📌 KPI Reporting
+📉 Trend Analysis
+🌍 Geographic Data Analysis
+🎛️ Interactive Dashboard Design
+💼 Business Analytics
+📊 Data Interpretation
+🌟 Project Highlights
+
+✨ Interactive one-page Power BI dashboard
+
+✨ 10,000+ EV charging station records
+
+✨ Country-wise infrastructure analysis
+
+✨ Top operator analysis
+
+✨ Station status analysis
+
+✨ Time-based growth analysis
+
+✨ Dynamic slicers
+
+✨ KPI-driven reporting
+
+✨ Clean and professional dashboard design
+
+🔮 Future Improvements
+
+Future versions of this project can include:
+
+🗺️ Interactive geographic map analysis
+🔌 Detailed connector-type analysis
+⚡ Charging speed analysis
+🏢 Operator market-share analysis
+📍 State and city-level analysis
+📱 Power BI mobile layout
+🔄 Automated data refresh
+👨‍💻 Author
+
+Thangavalu Girisha
+
+🎓 B.Tech – Computer Science & Engineering (Data Science)
+
+📊 Aspiring Data & Business Analytics Professional
+
+🔑 Keywords
+
+Power BI Power BI Dashboard Data Analytics Data Visualization Business Intelligence DAX Power Query Data Cleaning Data Transformation Dashboard Development KPI EV Analytics Electric Vehicles EV Charging Stations Charging Infrastructure Business Analytics Interactive Dashboard Data Analysis Trend Analysis Data Storytelling
+
+⭐ If you found this project useful
+
+Feel free to ⭐ Star the repository and explore the dashboard!
